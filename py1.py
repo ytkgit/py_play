@@ -1,5 +1,6 @@
 import inspect
 import urllib.request
+import urllib.parse
 
 x= str(input("これから画像を取得します。\nよろしいですか？　Y or N : "))
 
