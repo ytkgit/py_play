@@ -1,3 +1,12 @@
+#! usr/bin python3
+###practice for python coding###
+import sys
+import urllib.request as req
+import urllib.parse as par
+import requests
+
+###FUNC1 BEGIN###
+"""zip code search function"""
 # import urllib.request
 # import urllib.parse
 
@@ -16,13 +25,9 @@
 # data = urllib.request.urlopen(url).read()
 # text = data.decode("utf-8")
 # print(text)
+###FUNC1 END###
 
-#! /usr/bin/env python3
-
-import sys
-import urllib.request as req
-import urllib.parse as par
-
+###FUNC2 BEGIN###
 # if len(sys.argv) <= 1:
 #     print("USAGE: zip.py (keyword)")
 #     sys.exit()
@@ -43,3 +48,13 @@ with req.urlopen(url) as r:
     b = r.read()
     data = b.decode("utf-8")
     print(data)
+###FUNC2 END###
+
+###FUNC3 BEGIN###
+# """get the full http response
+#    usage: put URL into the ()of requests.get
+# """
+# with open("raw1.txt", mode="w") as f:
+#     w = requests.get("https://hpjav.tv/128246/fc2ppv_1321451-b")
+#     f.write(w.text)
+###FUNC3 END###
