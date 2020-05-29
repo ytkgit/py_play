@@ -2,6 +2,7 @@ import inspect
 import urllib.request
 import urllib.parse
 
+#this is for practice1 downloading image from specific site
 x= str(input("これから画像を取得します。\nよろしいですか？　Y or N : "))
 
 if x == "Y":
