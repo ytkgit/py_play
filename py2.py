@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/python
 ###MOD1 BEGIN###
 """how to use beautifulsoup"""
 #1 import library
