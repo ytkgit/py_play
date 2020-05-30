@@ -37,7 +37,7 @@ url = str(input("保存したいURLを入力してください : "))
 with req.urlopen(url) as r:
     b = r.read()
     data = b.decode("utf-8")
-#    print(data)
+    print(data)
 ans1 = str(input("取得したhtmlの内容をファイルに保存しますか? Y or N : "))
 
 if ans1 == "Y":

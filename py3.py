@@ -25,4 +25,9 @@ for a in links:
     href = a.attrs["href"]
     text = a.string
     print(text," > ",href)
+
+#5 list the video content
+li_list = soup.select("div#entry-content > figure.wp-block-video > video")
+for li in li_list:
+    print("li = ",li.string)
 ###MOD1 END###
