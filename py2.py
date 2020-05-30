@@ -2,7 +2,7 @@
 ###MOD1 BEGIN###
 """how to use beautifulsoup"""
 #1 import library
-from bs4 import Beautifulsoup
+from bs4 import BeautifulSoup
 
 #2 target html
 html = """
@@ -13,7 +13,7 @@ html = """
 </body></html>
 """
 #3 parse the html
-soup = Beautifulsoup(html,'html.parser')
+soup = BeautifulSoup(html,'html.parser')
 
 #4 extract the text
 h1 = soup.html.body.h1
