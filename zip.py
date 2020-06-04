@@ -1,4 +1,4 @@
-#! usr/bin python3
+#! /usr/bin/python3
 ###practice for python coding###
 import sys
 import urllib.request as req
@@ -48,6 +48,12 @@ with req.urlopen(url) as r:
     b = r.read()
     data = b.decode("utf-8")
     print(data)
+
+if data == "":
+    print("該当なし")
+else:
+    ct = data.count("item")
+    print("該当の和歌",ct,"歌")
 ###FUNC2 END###
 
 ###FUNC3 BEGIN###

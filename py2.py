@@ -2,7 +2,7 @@
 ###MOD1 BEGIN###
 """how to use beautifulsoup"""
 #1 import library
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as bs4
 
 #2 target html
 html = """
